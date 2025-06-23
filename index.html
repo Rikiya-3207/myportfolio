@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポートフォリオ｜YourName</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo">YourName</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>トレンド × デザイン × 提案力で<br>あなたのブランドを魅せます</h2>
+      <a href="#works" class="btn">制作実績を見る</a>
+      <a href="#contact" class="btn btn-secondary">相談してみる</a>
+    </div>
+  </section>
+
+  <section id="about" class="about fade-in">
+    <div class="container">
+      <h2>ABOUT</h2>
+      <div class="about-inner">
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-img">
+        <div>
+          <p>私はフリーランスデザイナーとして2年間、CanvaやSTUDIOなどを使って案件をこなしてきました。</p>
+          <ul class="skills">
+            <li>Canva / STUDIO / WiX</li>
+            <li>Premiere Pro / Illustrator / Photoshop</li>
+            <li>midjourney / gamma / ChatGPT活用</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="works fade-in">
+    <div class="container">
+      <h2>WORKS</h2>
+      <div class="works-grid">
+        <div class="work-item">
+          <img src="work1.jpg" alt="LP制作事例">
+          <h3>コスメLP</h3>
+          <p>構成 / デザイン / コピー</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>CONTACT</h2>
+      <p>お気軽にご相談ください。1〜2日以内にご連絡します。</p>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="お名前" required />
+        <input type="email" name="email" placeholder="メールアドレス" required />
+        <textarea name="message" rows="5" placeholder="ご相談内容" required></textarea>
+        <button type="submit" class="btn">送信する</button>
+      </form>
+      <div class="sns">
+        <a href="#">LINEで相談</a>｜<a href="#">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <small>&copy; 2025 YourName Portfolio. All rights reserved.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
